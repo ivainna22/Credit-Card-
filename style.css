@@ -41,5 +41,31 @@
         left: 350px;
     }
 
+    .container::before {
+        position: absolute;
+        background:white;
+        opacity: 0.2;
+        display: block;
+        width: 300px;
+        height: 300px;
+        border: 0;
+        border-radius: 50%;
+        left: 280px;
+        top: -90px;
+        content: ' '
+    }
 
+    .container::after {
+        position: absolute;
+        background:white;
+        opacity: 0.2;
+        display: block;
+        width: 300px;
+        height: 300px;
+        border: 0;
+        border-radius: 50%;
+        left: 220px;
+        top: 150px;
+        content: ' '
+    }
     
