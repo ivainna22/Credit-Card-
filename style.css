@@ -14,6 +14,7 @@
     background: linear-gradient(0deg, rgba(38,217,219,1) 0%, rgba(43,87,228,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    overflow: hidden;
     }
 
     .container p{
@@ -53,7 +54,7 @@
         left: 280px;
         top: -90px;
         content: ' '
-    }
+        }
 
     .container::after {
         position: absolute;
@@ -67,5 +68,5 @@
         left: 220px;
         top: 150px;
         content: ' '
-    }
+   }
     
