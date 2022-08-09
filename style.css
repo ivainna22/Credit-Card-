@@ -18,7 +18,7 @@
     }
 
     .container p{
-     font-size: 18px ;
+     font-size: 1.2em;
      position: absolute;
      left: 30px; 
     }
@@ -27,19 +27,20 @@
     top: 70px;
     }
 
-    .container p:nth-child(2){
-    font-size:40px;
+    .container p:nth-child(3){
+    font-size: 3em;
     font-weight: bold;
     top: 140px;
     }
 
-    .container p:nth-child(3){
+    .container p:nth-child(4){
     top: 240px;
     }
 
-    .container p img{
+    .container img{
         position: absolute;
-        left: 350px;
+        right: 50px;
+        top: 70px;
     }
 
     .container::before {
@@ -51,7 +52,7 @@
         height: 300px;
         border: 0;
         border-radius: 50%;
-        left: 280px;
+        right: -90px;
         top: -90px;
         content: ' '
         }
@@ -65,7 +66,7 @@
         height: 300px;
         border: 0;
         border-radius: 50%;
-        left: 220px;
+        right: -40px;
         top: 150px;
         content: ' '
    }
